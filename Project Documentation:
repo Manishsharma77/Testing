@@ -1,0 +1,41 @@
+Project Documentation: Visual Testing of 
+Justinmind Website 
+1. Overview 
+This project focuses on visual testing of the Justinmind website. The goal is to ensure 
+that the user interface across all pages is visually consistent, free of rendering issues, 
+and adheres to design specifications. 
+The website under test consists of four main pages: 
+• Home Page 
+• Templates Page 
+• Pricing Page 
+• Download Page 
+2. Objectives 
+• Verify that all UI components render correctly across different browsers and 
+devices. 
+• Detect any layout shifts, broken styles, or misaligned elements. 
+• Ensure visual consistency between design mockups and the implemented 
+website. 
+• Automate visual regression testing where possible. 
+3. Scope 
+The scope of testing includes: 
+• Static elements: Headers, footers, navigation menus, buttons, and text. 
+• Dynamic elements: Hover states, dropdowns, and interactive components. 
+• Cross-browser testing: Chrome, Firefox, Edge, Safari. 
+• Responsive testing: Desktop, tablet, and mobile views. 
+4. Tools & Frameworks 
+• Visual Testing Tools: 
+o Playwright / typescript (for automation) 
+• Browsers: Chrome, Firefox, Edge, Safari 
+• Devices: Desktop, Tablet, Mobile 
+5. Test Strategy 
+• Baseline Capture: Take initial screenshots of all four pages. 
+• Comparison Runs: Compare new builds against baseline screenshots. 
+• Regression Testing: Run automated visual checks after each deployment. 
+• Manual Review: Perform exploratory testing to catch subtle visual issues. 
+6. Reporting 
+• Defect Tracking: Issues logged in Jira/Trello with screenshots. 
+• Test Reports: Generated after each test cycle with pass/fail status. 
+7. Conclusion 
+This project ensures that the Justinmind website maintains a consistent, professional, 
+and user-friendly visual experience across all supported platforms. Visual testing 
+helps prevent UI regressions and enhances overall usability.
